@@ -1,8 +1,14 @@
 
--- |
+-- | Simple main
 --
--- >>> main
--- hello, world
+--   Usage:
+--     $ runhaskell Hello.hs
+--
+--     or
+--
+--     $ ghci Hello.hs
+--     ghci> :main
+--
 main :: IO ()
 main = putStrLn "hello, world"
 
